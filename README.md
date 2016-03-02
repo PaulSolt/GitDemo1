@@ -1,6 +1,10 @@
 # GitDemo1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Git Demo with Xcode 2222
+=======
+HI Git Demo with Xcode
+>>>>>>> Stashed changes
 =======
 HI Git Demo with Xcode
 >>>>>>> Stashed changes
