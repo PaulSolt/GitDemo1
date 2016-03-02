@@ -1,4 +1,8 @@
 # GitDemo1
 Git Demo with Xcode
 
-Test project
+New Test
+
+Added a new line. =)
+
+New other line. =)
