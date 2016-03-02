@@ -16,6 +16,8 @@ class ViewController: UIViewController {
      
         print("label 1")
         
+        // call this twice
+        method()
         method()
     }
     
