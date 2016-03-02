@@ -10,3 +10,5 @@ New other line. =)
 Test project
 
 Project has changed....
+
+New line on Other branch
