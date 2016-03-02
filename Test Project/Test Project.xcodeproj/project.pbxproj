@@ -284,6 +284,7 @@
 				BDF91C161C8740B100BD135D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
