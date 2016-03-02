@@ -14,7 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
      
-        print("label 1:", label1)
+        print("label 1")
+        
+        method()
+    }
+    
+    func method() {
+        print("hi")
     }
 
 }
