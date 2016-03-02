@@ -1,6 +1,5 @@
 # GitDemo1
 Git Demo with Xcode 2222
-=======
 
 Master 1: New Test
 
