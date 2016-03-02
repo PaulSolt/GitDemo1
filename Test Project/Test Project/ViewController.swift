@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         print("label 1")
         
         method()
+        method()
     }
     
     func method() {
