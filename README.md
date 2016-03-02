@@ -1,8 +1,12 @@
 # GitDemo1
-Git Demo with Xcode
+Git Demo with Xcode 2222
 
-New Test
+Master 1: New Test
 
-Added a new line. =)
+Master 2: Added a new line. =)
 
 New other line. =)
+
+Test project
+
+Project has changed....
