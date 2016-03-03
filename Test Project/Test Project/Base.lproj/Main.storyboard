@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -24,9 +25,39 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M3f-8D-J2l"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3tQ-Ne-cnr">
+                                <rect key="frame" x="20" y="20" width="560" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="DwJ-yC-Ueo"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paul Was Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcC-D5-a1h">
+                                <rect key="frame" x="245" y="65" width="111" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="r7I-Gg-2SK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="3tQ-Ne-cnr" secondAttribute="leading" id="4sv-Fp-8pD"/>
+                            <constraint firstItem="QcC-D5-a1h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5hI-VU-tgj"/>
+                            <constraint firstItem="3tQ-Ne-cnr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Nk4-Ia-t4j"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3tQ-Ne-cnr" secondAttribute="trailing" id="f9f-wC-IB3"/>
+                            <constraint firstItem="QcC-D5-a1h" firstAttribute="top" secondItem="3tQ-Ne-cnr" secondAttribute="bottom" constant="17" id="lUP-5w-zlY"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label1" destination="QcC-D5-a1h" id="v68-7h-shZ"/>
+                        <outlet property="segmentControl" destination="3tQ-Ne-cnr" id="RhZ-Wp-dHv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
