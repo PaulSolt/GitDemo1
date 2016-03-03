@@ -25,8 +25,7 @@ class ViewController: UIViewController {
         method()
         
         // Change B
-        
-        
+                
         
         // Change D
         
