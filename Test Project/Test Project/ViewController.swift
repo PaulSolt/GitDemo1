@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var segmentControl: UISegmentedControl!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
      
@@ -27,9 +25,6 @@ class ViewController: UIViewController {
         print(t)
     }
     
-    @IBAction func buttonPressed(sender: AnyObject) {
-        print("Hey there button!")
-    }
     func method() {
         print("hi")
         print("yersterday")
