@@ -19,21 +19,9 @@ class ViewController: UIViewController {
      
         print("label 1")
         
-        // call this once
-        
-        // Change A
+        // method()
         method()
-        
-        // Change B
-        
-        
-        
-        // Change D
-        
-
-        // Change 1
-        
-        
+        newMethod()
         
         var t = 2344 // new commit
         t = 10 * 25
