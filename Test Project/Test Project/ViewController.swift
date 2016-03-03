@@ -18,8 +18,6 @@ class ViewController: UIViewController {
         
         // call this once
         method()
-        
-        var t = 25
     }
     
     func method() {
