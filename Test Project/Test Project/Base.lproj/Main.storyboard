@@ -21,6 +21,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65m-3K-on2">
                                 <rect key="frame" x="20" y="56" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M3f-8D-J2l"/>
+                                </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3tQ-Ne-cnr">
                                 <rect key="frame" x="20" y="20" width="560" height="29"/>
@@ -61,6 +64,7 @@
                     <connections>
                         <outlet property="imageView" destination="XzY-4u-cEN" id="pQ7-AN-Bju"/>
                         <outlet property="label1" destination="QcC-D5-a1h" id="v68-7h-shZ"/>
+                        <outlet property="segmentControl" destination="3tQ-Ne-cnr" id="RhZ-Wp-dHv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
