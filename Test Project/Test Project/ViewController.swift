@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         
         // call this once
         method()
+        
+        var t = 2344 // new commit
     }
     
     func method() {
