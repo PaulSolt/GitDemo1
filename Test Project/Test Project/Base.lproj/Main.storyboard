@@ -35,27 +35,35 @@
                                     <segment title="Second"/>
                                 </segments>
                             </segmentedControl>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Eo-Jk-URd">
-                                <rect key="frame" x="306" y="299" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="px8-D1-5P3">
-                                <rect key="frame" x="253" y="234" width="121" height="29"/>
-                                <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
-                                </segments>
-                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paul Was Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcC-D5-a1h">
+                                <rect key="frame" x="245" y="65" width="111" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="r7I-Gg-2SK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Row" translatesAutoresizingMaskIntoConstraints="NO" id="XzY-4u-cEN">
+                                <rect key="frame" x="20" y="93" width="560" height="486.5"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="leadingMargin" secondItem="3tQ-Ne-cnr" secondAttribute="leading" id="4sv-Fp-8pD"/>
+                            <constraint firstItem="QcC-D5-a1h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5hI-VU-tgj"/>
+                            <constraint firstItem="XzY-4u-cEN" firstAttribute="top" secondItem="QcC-D5-a1h" secondAttribute="bottom" constant="7" id="JhJ-Mt-eLx"/>
                             <constraint firstItem="3tQ-Ne-cnr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Nk4-Ia-t4j"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="XzY-4u-cEN" secondAttribute="leading" id="OAb-4b-2ek"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XzY-4u-cEN" secondAttribute="bottom" constant="20.5" id="Qjn-HD-gdR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3tQ-Ne-cnr" secondAttribute="trailing" id="f9f-wC-IB3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XzY-4u-cEN" secondAttribute="trailing" id="jXr-Xu-E3h"/>
+                            <constraint firstItem="QcC-D5-a1h" firstAttribute="top" secondItem="3tQ-Ne-cnr" secondAttribute="bottom" constant="17" id="lUP-5w-zlY"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="XzY-4u-cEN" id="pQ7-AN-Bju"/>
+                        <outlet property="label1" destination="QcC-D5-a1h" id="v68-7h-shZ"/>
                         <outlet property="segmentControl" destination="3tQ-Ne-cnr" id="RhZ-Wp-dHv"/>
                     </connections>
                 </viewController>
@@ -64,4 +72,7 @@
             <point key="canvasLocation" x="362" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Row" width="1152" height="768"/>
+    </resources>
 </document>
