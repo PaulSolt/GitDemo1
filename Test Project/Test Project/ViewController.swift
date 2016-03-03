@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         // Change A
         method()
         
+        // Change B
+        
+        
+        
+        
         var t = 2344 // new commit
         t = 10 * 25
         print(t)
