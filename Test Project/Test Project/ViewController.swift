@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
      
@@ -28,6 +29,14 @@ class ViewController: UIViewController {
         print("hi")
         print("yersterday")
     }
+    
+    func newMethod() {
+        print("Paul was here")
+        
+    }
+    
+    
+    
 
 }
 

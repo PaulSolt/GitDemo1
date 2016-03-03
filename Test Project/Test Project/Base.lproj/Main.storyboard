@@ -59,6 +59,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="XzY-4u-cEN" id="pQ7-AN-Bju"/>
                         <outlet property="label1" destination="QcC-D5-a1h" id="v68-7h-shZ"/>
                     </connections>
                 </viewController>
