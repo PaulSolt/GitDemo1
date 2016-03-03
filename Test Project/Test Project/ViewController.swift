@@ -20,8 +20,6 @@ class ViewController: UIViewController {
         print("label 1")
         
         // call this once
-        
-        // Change A
         method()
         
         // Change B
